@@ -1,0 +1,52 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "bb-fontawesome",
+    "friendlyName": "FontAwesome",
+    "description": "A FontAwesome component for Budibase",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "select",
+        "key": "iconStyle",
+        "label": "Icon Style",
+        "options": ["Solid", "Regular"],
+        "defaultValue": "Regular"
+      },
+      {
+        "type": "text",
+        "key": "iconName",
+        "label": "Icon Name",
+        "defaultValue": "thumbs-up"
+      },
+      {
+        "type": "number",
+        "key": "iconScale",
+        "label": "Scale",
+        "defaultValue": 1,
+        "min": 1,
+        "max": 50
+      },
+      {
+        "type": "color",
+        "key": "iconColour",
+        "label": "Colour"
+      },
+      {
+        "type": "select",
+        "key": "iconAnimate",
+        "label": "Icon Animation",
+        "options": ["None", "Spin", "Pulse"],
+        "defaultValue": "None"
+      },
+      {
+        "type": "select",
+        "key": "iconFlip",
+        "label": "Icon Flip",
+        "options": ["None", "Horizontal", "Vertical"],
+        "defaultValue": "None"
+      }
+    ]
+  }
+}
