@@ -5,7 +5,6 @@ A Budibase component plugin to display any icon in the Font Awesome library, in 
 # Description
 Find out more about [Budibase](https://github.com/Budibase/budibase).
 
-
 To view the full Font Awesome library:
   * [Free Library](https://fontawesome.com/search?m=free&o=r)
   * [Pro Library](https://fontawesome.com/search)
