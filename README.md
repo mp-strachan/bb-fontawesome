@@ -3,8 +3,12 @@
 A Budibase component plugin to display any icon in the Font Awesome library, in either Thin, Light, Regular, or Solid types.
 
 # Description
-Find out more about [Budibase](https://github.com/Budibase/budibase).<br>
-To view the full Font Awesome library, [click here!](https://fontawesome.com/icons)
+Find out more about [Budibase](https://github.com/Budibase/budibase).
+
+
+To view the full Font Awesome library:
+  * [Free Library](https://fontawesome.com/search?m=free&o=r)
+  * [Pro Library](https://fontawesome.com/search)
 
 # How To Use
 1. Import the plugin into your budibase instance (see Budibase documentation for more info)
