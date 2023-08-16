@@ -48,7 +48,7 @@
     return word[0].toUpperCase() + word.substring(1);
   }).join("");
 
-  $: fScale = iconScale + (iconSubScale / 10);
+  $: fScale = iconScale + (iconSubScale / 100);
 </script>
 
 <div use:styleable={$component.styles}>
