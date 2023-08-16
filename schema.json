@@ -29,6 +29,14 @@
         "max": 50
       },
       {
+        "type": "number",
+        "key": "iconSubScale",
+        "label": "Sub Scale",
+        "defaultValue": 0,
+        "min": 0,
+        "max": 9
+      },
+      {
         "type": "color",
         "key": "iconColour",
         "label": "Colour"

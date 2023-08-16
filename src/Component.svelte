@@ -19,6 +19,7 @@
   export let iconStyle;
   export let iconName;
   export let iconScale;
+  export let iconSubScale;
   export let iconColour;
   export let iconFlip;
   export let iconAnimate;
@@ -47,15 +48,16 @@
     return word[0].toUpperCase() + word.substring(1);
   }).join("");
 
+  $: fScale = iconScale + (iconSubScale / 10);
 </script>
 
 <div use:styleable={$component.styles}>
   {#if iconAnimate === "Spin"}
-    <Icon class="faIcon" data={faStyle[faName]} scale={iconScale} flip="{iconFlip.toLowerCase()}" spin style="color: {iconColour}"/>
+    <Icon class="faIcon" data={faStyle[faName]} scale="{fScale}" flip="{iconFlip.toLowerCase()}" spin style="color: {iconColour}"/>
   {:else if iconAnimate === "Pulse"}
-    <Icon class="faIcon" data={faStyle[faName]} scale={iconScale} flip="{iconFlip.toLowerCase()}" pulse style="color: {iconColour}"/>
+    <Icon class="faIcon" data={faStyle[faName]} scale="{fScale}" flip="{iconFlip.toLowerCase()}" pulse style="color: {iconColour}"/>
   {:else}
-    <Icon class="faIcon" data={faStyle[faName]} scale={iconScale} flip="{iconFlip.toLowerCase()}" style="color: {iconColour}"/>
+    <Icon class="faIcon" data={faStyle[faName]} scale="{fScale}" flip="{iconFlip.toLowerCase()}" style="color: {iconColour}"/>
   {/if}
 </div>
 
