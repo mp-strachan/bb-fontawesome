@@ -9,6 +9,12 @@ To view the full Font Awesome library:
   * [Free Library](https://fontawesome.com/search?m=free&o=r)
   * [Pro Library](https://fontawesome.com/search)
 
+### Free Icon Library
+The Font Awesome free library includes *some* regular icons (eg: clipboard), however, some are only included in the pro plan.
+If your icon doesn't display with the regular style selected, try using solid, then double-check the Font Awesome catalog.
+> ![](docs/fa_clipboard1.png)
+> ![](docs/fa_clipboard2.png)
+
 # How To Use
 1. Import the plugin into your budibase instance (see Budibase documentation for more info)
 
