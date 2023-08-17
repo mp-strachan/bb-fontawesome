@@ -1,6 +1,6 @@
 {
   "name": "bb-fontawesome",
-  "version": "1.2_6.2.1-free",
+  "version": "1.2_6.4.2-free",
   "description": "A FontAwesome component for Budibase",
   "license": "MIT",
   "author": "Matthew Strachan",
@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@crownframework/svelte-error-boundary": "^1.0.3",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "svelte": "^3.49.0",
     "svelte-awesome": "^3.0.1"
   },

@@ -1,5 +1,5 @@
 # Budibase Font Awesome (Free/Pro)
-### Current Library Version: 6.2.1
+### Current Library Version: 6.4.2
 A Budibase component plugin to display any icon in the Font Awesome library, in either Thin, Light, Regular, or Solid types.
 
 # Description
