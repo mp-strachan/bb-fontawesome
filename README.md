@@ -38,7 +38,7 @@ Learn more about [Font Awesome Pro](https://fontawesome.com/plans).
 1. Clone the repository
 
 
-2. Create a `.npmrc` file in the root of the plugin directory.
+2. Update the `.npmrc` file in the root of the plugin directory.
    * NOTE: See [this link](https://fontawesome.com/docs/web/setup/packages#set-up-npm-token-for-a-specific-project) for how to configure your .npmrc file
 
 
