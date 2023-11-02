@@ -11,7 +11,7 @@
         "type": "select",
         "key": "iconStyle",
         "label": "Icon Style",
-        "options": ["Solid", "Regular"],
+        "options": ["Solid", "Regular", "Brands"],
         "defaultValue": "Regular"
       },
       {

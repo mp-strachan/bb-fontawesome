@@ -6,12 +6,14 @@
   // UNCOMMENT FOR FONT AWESOME FREE
   import * as far from '@fortawesome/free-regular-svg-icons';
   import * as fas from '@fortawesome/free-solid-svg-icons';
+  import * as fab from '@fortawesome/free-brands-svg-icons';
 
   // UNCOMMENT FOR FONT AWESOME PRO
   // import * as far from '@fortawesome/pro-regular-svg-icons';
   // import * as fas from '@fortawesome/pro-solid-svg-icons';
   // import * as fal from '@fortawesome/pro-light-svg-icons';
   // import * as fat from '@fortawesome/pro-thin-svg-icons';
+  // import * as fab from '@fortawesome/free-brands-svg-icons';
 
   const { styleable } = getContext("sdk")
   const component = getContext("component")
@@ -32,6 +34,9 @@
       break;
     case "Regular":
       faStyle = far;
+      break;
+    case "Brands":
+      faStyle = fab;
       break;
     // UNCOMMENT FOR FONT AWESOME PRO
     // case "Light":

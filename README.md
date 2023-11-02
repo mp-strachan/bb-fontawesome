@@ -51,20 +51,23 @@ Learn more about [Font Awesome Pro](https://fontawesome.com/plans).
 3. Open `package.json` and remove the following dependencies:
    * `"@fortawesome/free-solid-svg-icons": "^6.2.1"`
    * `"@fortawesome/free-regular-svg-icons": "^6.2.1"`
-
+   * `"@fortawesome/free-brands-svg-icons": "^6.4.2"`
 
 4. Add the following dependencies
-   * `"@fortawesome/pro-light-svg-icons": "^6.2.1"`
-   * `"@fortawesome/pro-regular-svg-icons": "^6.2.1"`
-   * `"@fortawesome/pro-solid-svg-icons": "^6.2.1"`
-   * `"@fortawesome/pro-thin-svg-icons": "^6.2.1"`
+   * `"@fortawesome/free-brands-svg-icons": "^6.4.2"`
+   * `"@fortawesome/pro-light-svg-icons": "^6.4.2"`
+   * `"@fortawesome/pro-regular-svg-icons": "^6.4.2"`
+   * `"@fortawesome/pro-solid-svg-icons": "^6.4.2"`
+   * `"@fortawesome/pro-thin-svg-icons": "^6.4.2"`
 
+> Note: 
+> Ensure you use the latest/specific version of the dependencies in the above codeblocks
 
 5. Update dependencies by running `npm install`
 
 
 6. In `schema.json`, change the following line
-   * `"options": ["Solid", "Regular"],` => `"options": ["Solid", "Regular", "Light", "Thin"],`
+   * `"options": ["Solid", "Regular", "Brands"],` => `"options": ["Solid", "Regular", "Brands", "Light", "Thin"],`
 
 
 7. In `src/Component.svelte`:
